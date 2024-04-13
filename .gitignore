@@ -1,0 +1,48 @@
+# Исключить системные файлы
+.DS_Store
+Thumbs.db
+
+# Исключить папку сборки
+/build
+
+# Исключить логи
+*.log
+
+# Исключить артефакты сборки
+*.class
+*.o
+*.dll
+
+# Исключить папки с зависимостями
+/node_modules
+/vendor
+
+# Исключить файлы конфигурации IDE
+/.idea
+/*.sublime-workspace
+/*.sublime-project
+/.vscode
+/*.code-workspace
+
+# Исключить личные файлы конфигурации
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Исключить файлы архивов
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Исключить другие неотслеживаемые файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+
+pass.txt
+bot_database.db
